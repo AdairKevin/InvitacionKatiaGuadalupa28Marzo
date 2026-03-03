@@ -370,6 +370,8 @@ td span {
 
 .carousel-item img {
   object-fit: cover;
+  max-width: calc(100%-5px);
+  height: 100%;
   /* Recortar la imagen sin distorsionar */
 }
 
